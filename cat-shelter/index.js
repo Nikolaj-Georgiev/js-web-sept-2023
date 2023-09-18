@@ -2,6 +2,7 @@ const http = require('http');
 const { homeTemplate } = require('./views/home/index');
 const { siteCss } = require('./content/styles/site');
 const { addBreed } = require('./views/addBreed');
+const addCat = require('./views/addCat');
 const catTemplate = require('./views/home/catTemplate');
 const PORT = 5555;
 
@@ -30,7 +31,9 @@ const cats = [
     breed: 'ulichna4',
     description: 'Very cute cat4!'
   },
-]
+];
+
+const router = (url) => { };
 
 const server = http.createServer((req, res) => {
   const { url } = req;
@@ -41,8 +44,6 @@ const server = http.createServer((req, res) => {
     const namePattern = /{{name}}/g;
     const breedPattern = /{{breed}}/g;
     const descriptionPattern = /{{description}}/g;
-
-
 
     const catHtml = cats.map(cat => catTemplate
       .replace(imageUrlPattern, cat.imageUrl)
@@ -64,10 +65,15 @@ const server = http.createServer((req, res) => {
       'Content-type': 'text/html'
     });
     res.write(addBreed);
-  } else if (url === '')
+  } else if (url === '/cats/add-cat') {
+    res.writeHead(200, {
+      'Content-type': 'text/html'
+    });
+    res.write(addCat);
+  }
 
 
-    res.end();
+  res.end();
 
 });
 
