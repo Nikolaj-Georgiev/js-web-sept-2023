@@ -1,0 +1,12 @@
+{
+  "name": "cat-shelter-new",
+  "version": "1.0.0",
+  "description": "workshop nodeJs",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "start": "nodemon"
+  },
+  "author": "NG",
+  "license": "MIT"
+}

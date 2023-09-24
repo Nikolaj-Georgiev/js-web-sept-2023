@@ -1,0 +1,26 @@
+[
+  {
+    "imageUrl": "https://images.pexels.com/photos/416160/pexels-photo-416160.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "name": "Cat lying on its back",
+    "breed": "Lejashto kote",
+    "description": "Sladun"
+  },
+  {
+    "imageUrl": "https://images.pexels.com/photos/774731/pexels-photo-774731.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "name": "Cat standing on its beck feats and reaching with its pows",
+    "breed": "Daj hranata tuk!",
+    "description": "Sladko kote, ako ne e gladno"
+  },
+  {
+    "imageUrl": "https://images.pexels.com/photos/755834/pexels-photo-755834.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "name": "cat lying on a couch in a strange position",
+    "breed": "k'va e taz hujnja",
+    "description": "Pohititel na divani"
+  },
+  {
+    "imageUrl": "https://images.pexels.com/photos/53446/cat-feline-furry-pet-53446.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "name": "grey cat",
+    "breed": "Sivo roshavo kote",
+    "description": "Sivchun"
+  }
+]
